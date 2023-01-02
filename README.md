@@ -25,3 +25,8 @@ pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+## Notes
+
+- in `app` directory, all the component are server component by default
+- Client Component (Search page) -> to use `'use client'` to define client component
